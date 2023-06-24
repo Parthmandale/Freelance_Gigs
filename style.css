@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 244, 246);
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    /* margin: 10px; */
+    padding: 5px;
+    display: flex;
+    background-color: rgb(241, 244, 246);;
+ 
+}
+.logo img{
+    margin-top: 18px;
+    height: 50px;
+    width: 200px;
+}
+.list{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+.list ul{
+    display: flex;
+}
+.list ul li{
+    padding: 20px;
+    list-style: none;
+    color: rgb(58, 57, 57);
+    font-size: 20px;
+}
+.login_btn{
+    margin-top: 12px;
+    padding: 15px;
+    margin-left: 250px;
+}
+.login_btn a{
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+    font-size: 20px ;
+}
+#free_trail{
+    margin-left: 10px;
+    height: 40px;
+    width: 120px;
+    size: 15px;
+    background-color: rgb(21, 142, 222);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+
+}
+#free_trail:hover{
+    background-color: rgb(3, 31, 82);
+    
+}
+.first_page{
+    display: flex;
+
+}
+.content{
+    margin: 40px 30px;
+}
+.content h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.content p{
+    margin-top: 15px;
+    font-size: 25px;
+    color: rgb(77, 73, 73);
+    font-family: sans-serif;
+}
+.image img{
+    height: 500px;
+    width: 600px;
+}
+.two_button{
+    display: flex;
+    margin-top: 30px;
+}
+#free_btn{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(21, 142, 222);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#free_btn:hover{
+   background-color:  rgb(3, 31, 82);
+
+}
+#demo_btn{
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(241, 244, 246);
+    color: rgb(21, 142, 222);
+    border: 0.5px solid grey;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+
+
+
+}
+#demo_btn:hover{
+    border: 2px solid rgb(21, 142, 222);
+}
+#achivements{
+    height: 120px;
+    margin-top: 60px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky+.first_page{
+    padding-top: 120px;
+}
+
+.second_page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.second_page p{
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
